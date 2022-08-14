@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #3E3E3E;
+}
+
+.top-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-section>div{
+    max-width: 50%;
+}
+
+.introDiv{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 13px;
+    position: relative;
+    right: -30px;
+    transform: rotateZ(-10deg);
+}
+
+.title{
+    color: white;
+    font-size: 72px;
+}
+
+.subTitle{
+    color: white;
+    font-size: 24px;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.imageContainer>div{
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#phone1{
+    width: 100px;
+    position: relative;
+}
+#key{
+    width: 70px;
+    position: relative;
+}
+#phone2{
+    width: 200px;
+    position: relative;
+}
+#laptop{
+    width: 350px;
+    position: relative;
+    right: -73px;
+    top: -10px;
+}
+#man{
+    width: 400px;
+    position: relative;
+}
+
+.introMainDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-section, .project-section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle{
+    height: 70vh;
+    width: 70vh;
+    border-radius: 50%;
+    background-color: #C7F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ballons{
+    height: 60vh;
+    position: relative;
+    top: 44px;
+}
+
+.skill-div{
+    position: relative;
+}
+
+.skill-div>p{
+    font-weight: bold;
+}
+
+.html{
+    position: absolute;
+    top: 90px;
+    left: 200px;
+}
+.css{
+    position: absolute;
+    top: 130px;
+    left: 370px;
+}
+.javaScript{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.React{
+    position: absolute;
+    top: 190px;
+    left: 220px;
+}
+.cpp{
+    position: absolute;
+    top: 240px;
+    left: 380px;
+}
+.react-native{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+}
+.django{
+    position: absolute;
+    top: 320px;
+    left: 280px;
+}
+
+
+.project{
+    width: 90%;
+    display: flex;
+    margin: 5%;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.project>div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image{
+    max-width: 70%;
+    margin: 10%;
+}
+
+.content{
+    padding: 20px 10px;
+    color: white;
+    display: flex;
+}
+
+.content>h3{
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.project-description{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.tech-circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #B18851 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pl-custom{
+    padding-left: 30px;
+}
+
+.bg-yellow{
+    background-color: #FFC700;
+    color: black;
+}
+.bg-white{
+    background-color: #fff;
+    color: rgb(137, 137, 137);
+}
+
+.screeshot-section{
+    width: 90%;
+    background-color: black;
+    margin: 5%;
+    padding: 20px;
+}
+
+footer, .link-div{
+    width: 100%;
+    display: flex;
+}
+
+footer>div, .link-div>div{
+    flex: 1;
+}
+
+.link-div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #FFC700;
+    font-size: 24px;
+}
+
+.footer-image{
+    width: 100%;
+}
+
+
+.screenshot-head{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#image1{
+    width: 100%;
+}
+#image2{
+    width: 38.37%;
+}
+#image3{
+    width: 61%;
+}
+
+.mail{
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width:900px) {
+    .title{
+        color: white;
+        font-size: 42px;
+    }
+    .subTitle{
+        color: white;
+        font-size: 18px;
+    }
+    #phone1{
+        width: 50px;
+        position: relative;
+    }
+    #key{
+        width: 35px;
+        position: relative;
+    }
+    #phone2{
+        width: 100px;
+        position: relative;
+    }
+    #laptop{
+        width: 175px;
+        position: relative;
+        right: -43px;
+        top: -10px;
+    }
+    #man{
+        width: 200px;
+        position: relative;
+    }
+    
+}
